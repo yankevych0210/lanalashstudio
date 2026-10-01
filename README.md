@@ -17,12 +17,16 @@ A single-page static site with no build step and no dependencies. Everything —
 ```
 .
 ├── index.html            # the whole site: HTML, CSS (<style>) and JS (<script>)
+├── 404.html              # "page not found" page (served by Vercel automatically)
 ├── images/
-│   ├── og.jpg            # social sharing preview (1200×630)
+│   ├── og-cover.jpg      # social sharing preview (1200×630)
 │   └── photo-XX.jpg      # logo, portrait, gallery and before/after photos
+├── favicon.ico           # browser tab icon (legacy browsers)
 ├── favicon-32.png        # browser tab icon
 ├── apple-touch-icon.png  # iOS home-screen icon
-├── icon-512.png          # logo used in structured data
+├── icon-192.png          # Android / web app icon
+├── icon-512.png          # web app icon, logo in structured data
+├── site.webmanifest      # web app manifest (name, colors, icons)
 ├── robots.txt
 ├── sitemap.xml
 ├── vercel.json           # clean URLs, security headers, image caching
