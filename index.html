@@ -30,7 +30,7 @@
 {
  "@context": "https://schema.org",
  "@type": "BeautySalon",
- "name": "Lana Studio",
+ "name": "Lana Lash Studio",
  "url": "https://lanalashstudio.com/",
  "image": "https://lanalashstudio.com/images/og-cover.jpg",
  "logo": "https://lanalashstudio.com/icon-512.png",
@@ -43,7 +43,7 @@
  "department": [
   {
    "@type": "BeautySalon",
-   "name": "Lana Studio — Walnut Creek",
+   "name": "Lana Lash Studio — Walnut Creek",
    "telephone": "+1-628-946-0049",
    "address": {
     "@type": "PostalAddress",
@@ -69,7 +69,7 @@
   },
   {
    "@type": "BeautySalon",
-   "name": "Lana Studio at Nail It — San Francisco",
+   "name": "Lana Lash Studio at Nail It — San Francisco",
    "telephone": "+1-628-946-0049",
    "address": {
     "@type": "PostalAddress",
@@ -397,6 +397,9 @@ footer.foot{background:var(--sand);color:var(--muted);padding:40px 0 calc(110px 
 .stars{line-height:22px}
 .q-rail.all .q.more-q{display:flex;animation:panelIn .6s var(--ease)}
 .showall{margin-top:18px;background:transparent;font-family:var(--sans)}
+.rev-cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:18px}
+.rev-cta .showall{margin-top:0}
+@media (max-width:599px){.rev-cta{flex-direction:column;align-items:flex-start}}
 
 .stars{color:var(--gold);letter-spacing:2px;font-size:15px}
 .q .src{font-size:12.5px;color:var(--muted)}
@@ -583,7 +586,10 @@ footer.foot{background:var(--sand);color:var(--muted);padding:40px 0 calc(110px 
       <h2 class="h2" id="rev-h" data-reveal>Kind words</h2>
       <p class="lead" data-reveal>What clients say after their visit.</p>
       <div class="q-rail" id="qrail"><blockquote class="q"><div><div class=stars aria-label="5 out of 5 stars">★★★★★</div></div><p>Lana is a fantastic lash artist — professional, caring, and incredibly attentive.</p><footer><strong style="font-weight:500;color:var(--text)">Galyna H.</strong> <span class="src">· 5★ review</span></footer></blockquote><blockquote class="q"><div><div class=stars aria-label="5 out of 5 stars">★★★★★</div></div><p>Lana is an excellent lash artist. She takes her time and is a perfectionist. My classic set was very natural looking, as requested.</p><footer><strong style="font-weight:500;color:var(--text)">Libby P.</strong> <span class="src">· 5★ review</span></footer></blockquote><blockquote class="q"><div><div class=stars aria-label="5 out of 5 stars">★★★★★</div></div><p>I was hesitant to do my lashes again since I had an allergic reaction after the procedure, but I was very happy with both the service and the mastery of Lana.</p><footer><strong style="font-weight:500;color:var(--text)">Lyuba M.</strong> <span class="src">· 5★ review</span></footer></blockquote><blockquote class="q"><div><div class=stars aria-label="5 out of 5 stars">★★★★★</div></div><p>I love this master, I go to her every month. The lashes last a long time and you can always ask for any volume.</p><footer><strong style="font-weight:500;color:var(--text)">Svetlana A.</strong> <span class="src">· 5★ review</span></footer></blockquote><blockquote class="q more-q"><div><div class=qtag>Instagram message</div></div><p>Thank you so much for such beautiful lashes. I'm simply delighted. You're a real fairy.</p><footer><strong style="font-weight:500;color:var(--text)">Client</strong> </footer></blockquote><blockquote class="q more-q"><div><div class=qtag>Instagram message</div></div><p>Sveta, the lashes turned out so great, thank you! Everyone loved them.</p><footer><strong style="font-weight:500;color:var(--text)">Client</strong> </footer></blockquote><blockquote class="q more-q"><div><div class=qtag>Instagram message</div></div><p>Thank you for your work! I'm very happy with the level of service and the result. I'll gladly come back and recommend you to my friends as a true professional.</p><footer><strong style="font-weight:500;color:var(--text)">Client</strong> </footer></blockquote><blockquote class="q more-q"><div><div class=qtag>Instagram message</div></div><p>You are a great professional. I'm very happy with the result and will recommend you to all my friends.</p><footer><strong style="font-weight:500;color:var(--text)">Client</strong> </footer></blockquote></div>
-      <button class="btn btn-line showall" id="showAll" aria-expanded="false">Show all 8 reviews</button>
+      <div class="rev-cta">
+        <button class="btn btn-line showall" id="showAll" aria-expanded="false">Show all 8 reviews</button>
+        <a class="btn btn-line" href="https://g.page/r/CfRpnafaCUF1EBM/review" target="_blank" rel="noopener">Leave a Google review</a>
+      </div>
     </div>
   </section>
 
